@@ -45,7 +45,7 @@ public class WebbvideoConfigController {
         
         if(request.getParameter("_ok") != null) {
             try {
-                prefs.setValue(VIDEO_ID, form.getVideoId());
+                prefs.setValue(VIDEO_ID, form.getVideoId().trim());
             } catch (ReadOnlyException ex) {
                 Logger.getLogger(WebbvideoConfigController.class.getName()).log(Level.SEVERE, null, ex);
                 model.addAttribute("errorText", ex.getMessage());
