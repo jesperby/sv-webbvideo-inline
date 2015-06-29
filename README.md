@@ -1,5 +1,5 @@
-Sitevision Portlet for an Inline Brightcove Video
-=================================================
+Sitevision Portlet for a Brightcove Video
+=========================================
 
 A portlet application built on the Spring Portlet MVC framework. Displays markup for a video on City of Malmo's external and internal web site. The video is retrieved from Brightcove Videocloud by using their JavaScript API. 
 
