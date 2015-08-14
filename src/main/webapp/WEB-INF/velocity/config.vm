@@ -3,7 +3,7 @@
     <form action="$renderResponse.createActionURL()&action=save" method="post" class="basic">
         <p class="help-block">Webbvideoinställningar</p>
         <div class="form-group">
-            <label for="category" class="control-label">Kategori:</label>
+            <label for="videoId" class="control-label">Ange ID för webbvideo:</label>
             <div class="controls">
                 #springFormInput("form.videoId" $videoId)
             </div>
