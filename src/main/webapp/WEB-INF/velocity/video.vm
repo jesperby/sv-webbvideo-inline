@@ -1,6 +1,6 @@
 #set($springXhtmlCompliant = true)
 <div class="bc-video-box">
-    <video id="bc-video"
+    <video id="${videoId}"
       data-account="745456160001"
       data-video-id="${videoId}"
       data-player="ac887454-ec8b-4ffc-a530-4af5c1c8e8c7"
