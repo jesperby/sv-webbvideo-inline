@@ -47,7 +47,7 @@
         <dependency>
             <groupId>senselogic.sitevision.public-api</groupId>    
             <artifactId>sitevision-public-api</artifactId>    
-            <version>3.6.2</version>
+            <version>4.2.0.3</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -94,10 +94,10 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
-        <repository>
+        <!--repository>
             <id>sitevision</id>
             <url>http://maven.sitevision.se/artifactory/repo</url>
-        </repository>
+        </repository -->
     </repositories>
     
     <pluginRepositories>
